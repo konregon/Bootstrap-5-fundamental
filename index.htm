@@ -25,6 +25,9 @@
 </head>
 
 <body>
+
+    <!-- Container Start -->
+    
     <div class="container-sm">100% wide until small breakpoint</div>
     <br>
 <div class="container-md">100% wide until medium breakpoint</div>
@@ -35,6 +38,227 @@
 <br>
 <div class="container-xxl">100% wide until extra extra large breakpoint</div>
 <br>
+<!-- Container End -->
+
+
+<!-- Grid Start -->
+
+<div class="container text-center">
+    <div class="row">
+      <div class="col">
+        Column
+      </div>
+      <div class="col">
+        Column
+      </div>
+      <div class="col">
+        Column
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <!-- Equal-width  -->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        1 of 2
+      </div>
+      <div class="col">
+        2 of 2
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        1 of 3
+      </div>
+      <div class="col">
+        2 of 3
+      </div>
+      <div class="col">
+        3 of 3
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <!-- Setting one column width  -->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        1 of 3
+      </div>
+      <div class="col-6">
+        2 of 3 (wider)
+      </div>
+      <div class="col">
+        3 of 3
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        1 of 3
+      </div>
+      <div class="col-5">
+        2 of 3 (wider)
+      </div>
+      <div class="col">
+        3 of 3
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <!-- Variable width content  -->
+  <div class="container text-center">
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-2">
+        1 of 3
+      </div>
+      <div class="col-md-auto">
+        Variable width content
+      </div>
+      <div class="col col-lg-2">
+        3 of 3
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        1 of 3
+      </div>
+      <div class="col-md-auto">
+        Variable width content
+      </div>
+      <div class="col col-lg-2">
+        3 of 3
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <!-- All breakpoints  -->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">col</div>
+      <div class="col">col</div>
+      <div class="col">col</div>
+      <div class="col">col</div>
+    </div>
+    <div class="row">
+      <div class="col-8">col-8</div>
+      <div class="col-4">col-4</div>
+    </div>
+  </div>
+  <br>
+
+  <!-- Stacked to horizontal -->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm-8">col-sm-8</div>
+      <div class="col-sm-4">col-sm-4</div>
+    </div>
+    <div class="row">
+      <div class="col-sm">col-sm</div>
+      <div class="col-sm">col-sm</div>
+      <div class="col-sm">col-sm</div>
+    </div>
+  </div>
+  <br>
+
+  <!-- Mix and match  -->
+  <div class="container text-center">
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+      <div class="col-md-8">.col-md-8</div>
+      <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    </div>
+  
+    <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+    <div class="row">
+      <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+      <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+      <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    </div>
+  
+    <!-- Columns are always 50% wide, on mobile and desktop -->
+    <div class="row">
+      <div class="col-6">.col-6</div>
+      <div class="col-6">.col-6</div>
+    </div>
+  </div>
+  <br>
+
+  <!-- Row columns  -->
+  <div class="container text-center">
+    <div class="row row-cols-2">
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="row row-cols-3">
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="row row-cols-auto">
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="row row-cols-4">
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="row row-cols-4">
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col-6">Column</div>
+      <div class="col">Column</div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+    </div>
+  </div>
+  <br>
+
+  <!-- Nesting  -->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm-3">
+        Level 1: .col-sm-3
+      </div>
+      <div class="col-sm-9">
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            Level 2: .col-8 .col-sm-6
+          </div>
+          <div class="col-4 col-sm-6">
+            Level 2: .col-4 .col-sm-6
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Grid End -->
     
 </body>
 
