@@ -1,5 +1,10 @@
 div{
     font-size: 25px;
     background-color: dodgerblue;
-    border: 1px solid black;
+    border: 0.1px solid black;
+}
+
+.box{
+    height: 30px;
+    background-color: aqua;
 }
