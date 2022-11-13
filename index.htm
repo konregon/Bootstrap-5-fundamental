@@ -606,9 +606,64 @@
   </div>
   <br>
 
-
 <!-- Gutters End -->
 
+
+<!-- CSS Grid system start -->
+
+<!-- Three columns -->
+<div class="grid text-center">
+    <div class="g-col-4">.g-col-4</div>
+    <div class="g-col-4">.g-col-4</div>
+    <div class="g-col-4">.g-col-4</div>
+  </div>
+  <br>
+  <!-- Responsive -->
+  <div class="grid text-center">
+    <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+    <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+    <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+  </div>
+  <br>
+
+  <!-- Auto columns -->
+  <div class="grid text-center">
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+  </div>
+  <br>
+
+  <!-- Nesting -->
+  <div class="grid text-center" style="--bs-columns: 3;">
+    <div>
+      First auto-column
+      <div class="grid">
+        <div>Auto-column</div>
+        <div>Auto-column</div>
+      </div>
+    </div>
+    <div>
+      Second auto-column
+      <div class="grid" style="--bs-columns: 12;">
+        <div class="g-col-6">6 of 12</div>
+        <div class="g-col-4">4 of 12</div>
+        <div class="g-col-2">2 of 12</div>
+      </div>
+    </div>
+    <div>Third auto-column</div>
+  </div>
+
+<!-- CSS Grid system End -->
 
 </body>
 
