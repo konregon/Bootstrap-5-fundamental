@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <title>Transparent Navbar</title>
+    <style>
+        .banner-image{
+            background-image: url(img/night-view-7523474_1920.jpg);
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">WEB ZONE</a>
+            <button class="navbar-toggler" type="toggle" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button> 
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner Image -->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="content">
+            <h1 class="text-white">WEB ZONE</h1>
+        </div>
+    </div>
+
+    <!-- container area -->
+    <div class="container my-5 d-grid gap-5">
+        <div class="p-5 border">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ut ipsa laborum aliquid et sit! Architecto laborum laboriosam magnam doloribus. Animi porro similique recusandae temporibus, laboriosam eius veniam minima sit assumenda possimus libero ipsum nam quam quaerat maxime maiores odit voluptatibus placeat quas hic. Hic reiciendis ipsa magnam doloribus fugit.
+            </p>
+        </div>
+        <div class="p-5 border">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ut ipsa laborum aliquid et sit! Architecto laborum laboriosam magnam doloribus. Animi porro similique recusandae temporibus, laboriosam eius veniam minima sit assumenda possimus libero ipsum nam quam quaerat maxime maiores odit voluptatibus placeat quas hic. Hic reiciendis ipsa magnam doloribus fugit.
+            </p>
+        </div>
+        <div class="p-5 border">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ut ipsa laborum aliquid et sit! Architecto laborum laboriosam magnam doloribus. Animi porro similique recusandae temporibus, laboriosam eius veniam minima sit assumenda possimus libero ipsum nam quam quaerat maxime maiores odit voluptatibus placeat quas hic. Hic reiciendis ipsa magnam doloribus fugit.
+            </p>
+        </div>
+        <div class="p-5 border">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ut ipsa laborum aliquid et sit! Architecto laborum laboriosam magnam doloribus. Animi porro similique recusandae temporibus, laboriosam eius veniam minima sit assumenda possimus libero ipsum nam quam quaerat maxime maiores odit voluptatibus placeat quas hic. Hic reiciendis ipsa magnam doloribus fugit.
+            </p>
+        </div>
+        <div class="p-5 border">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ut ipsa laborum aliquid et sit! Architecto laborum laboriosam magnam doloribus. Animi porro similique recusandae temporibus, laboriosam eius veniam minima sit assumenda possimus libero ipsum nam quam quaerat maxime maiores odit voluptatibus placeat quas hic. Hic reiciendis ipsa magnam doloribus fugit.
+            </p>
+        </div>
+        <div class="p-5 border">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ut ipsa laborum aliquid et sit! Architecto laborum laboriosam magnam doloribus. Animi porro similique recusandae temporibus, laboriosam eius veniam minima sit assumenda possimus libero ipsum nam quam quaerat maxime maiores odit voluptatibus placeat quas hic. Hic reiciendis ipsa magnam doloribus fugit.
+            </p>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var nav = document.querySelector('nav');
+  
+        window.addEventListener('scroll', function () {
+          if (window.pageYOffset > 100) {
+            nav.classList.add('bg-dark', 'shadow');
+          } else {
+            nav.classList.remove('bg-dark', 'shadow');
+          }
+        });
+      </script>
+</body>
+</html>
