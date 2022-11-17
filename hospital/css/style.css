@@ -62,3 +62,16 @@ a {
     background: var(--secondary-color);
 }
 
+/* 2. Navbar */
+.header_wrapper .navbar{
+    padding: .9375rem 0;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.header_wrapper .navbar_toggler{
+    border: 0;
+    color: var(--text-black);
+    line-height: 2;
+    box-shadow: none;
+}
