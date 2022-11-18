@@ -302,3 +302,18 @@ a {
     background-position: center;
     background-size: cover;
 }
+
+/* appointment */
+.appointment_wrapper {
+    background-image: url('../images/appointmnet-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*10 blog */
+.blog_wrapper .blog-content{
+    background-color:var(--bg-light-blue);
+    padding:2.5rem;
+}
+
