@@ -289,3 +289,16 @@ a {
 .gallery_wrapper img{
     border-radius: .9375rem;
 }
+
+/*9 Testimonial */
+.testimonial_wrapper .card{
+    background-color:rgba(252, 81, 133, .05);
+}  
+
+/* appointment */
+.appointment_wrapper {
+    background-image: url('../images/appointmnet-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
