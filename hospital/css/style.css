@@ -219,3 +219,25 @@ a {
     animation:movebounce 3s linear infinite;
 }
 
+/* 5 Services */
+.services_wrapper {
+    background-color:var(--primary-color);
+}
+.services_wrapper .card{
+    background-color:transparent;
+    border:.0625rem solid var(--bg-light-blue);
+    box-shadow: none;
+    padding:2.5rem;
+}
+.services_wrapper .card:hover{
+    background:var(--bg-light-blue);
+    cursor:cell;
+    border-color:transparent;
+}
+.services_wrapper .card h4,
+.services_wrapper .card p{
+    color:var(--text-white);
+}
+.services_wrapper .icon-box{
+    margin-bottom:1.875rem;
+}
