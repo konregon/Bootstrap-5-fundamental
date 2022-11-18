@@ -279,3 +279,13 @@ a {
     background-color:var(--secondary-color);
 } 
 
+/*8 Gallery Section */
+.gallery_wrapper{
+    background-image:url('../images/gallery/gallery-background.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.gallery_wrapper img{
+    border-radius: .9375rem;
+}
