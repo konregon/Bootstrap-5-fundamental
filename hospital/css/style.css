@@ -317,3 +317,86 @@ a {
     padding:2.5rem;
 }
 
+/* 11 footer */
+.footer_wrapper{
+    background-color:var(--primary-color);
+    padding-bottom:0;
+}
+.footer_wrapper h5{
+    color:var(--text-white);
+}
+.footer_wrapper .contact-info ul a {
+    padding:0;
+}
+.footer_wrapper ul li{
+    margin-bottom:.5rem;
+    list-style: none;
+    font-size: .875rem;
+}
+.footer_wrapper ul li a{
+    color:var(--text-white);
+}
+.footer_wrapper .link-widget li a,
+.footer_wrapper p{
+    color:var(--text-white);
+    font-size: .875rem;
+    padding-left:1.5rem;
+    position:relative;
+    -webkit-transition:all 0.3s ease-out 0s;
+    transition:all 0.3s ease-out 0s;
+}
+.footer_wrapper .link-widget li a::before{
+    content:'\f105';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    position:absolute;
+    left:0.3rem;
+    top:50%;
+    -webkit-transform:translateY(-50%);
+    transform:translateY(-50%);
+}
+.footer_wrapper .link-widget li a:hover{
+    margin-left:.625rem;
+    color:var(--secondary-text);
+}
+.footer_wrapper .social-network a{
+    width:2.1875rem;
+    height:2.1875rem;
+    margin:.5rem;
+    line-height: 2rem;
+    font-size: .875rem;
+    display:inline-block;
+    border:.125rem solid var(--bg-light-blue);
+    color:var(--text-light);
+    text-align: center;
+    border-radius: 100%;
+    -webkit-transition:all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.footer_wrapper .social-network a:hover{
+    background-color:var(--secondary-color);
+    border-color:var(--secondary-color);
+    color:var(--text-white);
+    transform:translateY(-0.1875rem);
+}
+.footer_wrapper ::placeholder{
+    color:var(--text-light);
+}
+.footer_wrapper .form-control{
+    color:var(--text-light);
+}
+.footer_wrapper .form-control:focus{
+    outline:none;
+    box-shadow: none;
+    border-color:var(--bg-white);
+}
+.footer_wrapper .copyright-section{
+    background-color:var(--bg-light-blue);
+    padding:2rem 0 1rem;
+    text-align: center;
+}
+.footer_wrapper .copyright-section a{
+    color:var(--text-white);
+    font-weight: 600;
+}
+
