@@ -1,0 +1,231 @@
+/* General CSS */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+:root {
+
+    /* Background Color */
+    --bg-white:#fff;
+
+    /* Text Colors */
+    --primary-text: #061738;
+    --secondary-color: #60cd12;
+    --light-color: #e2f6de;
+    --dark-color: #03262c;
+    --text-white: #fff;
+    --text-gray: #dee2e6;
+    --anchor-color: #007aff;
+
+    /* Font Family */
+    --primary-font: 'Barlow Condensed', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+}
+
+body,
+html {
+    color: var(--primary-text);
+    font-size: 10px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 9rem;
+    line-height: 1.4;
+    font-weight: 600;
+    color: var(--primary-text);
+}
+
+h2 {
+    color: var(--primary-text);
+    font-size: 4.7rem;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: capitalize;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    color: var(--text-white);
+    font-size: 3.1rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--primary-text);
+}
+
+h5 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--primary-text);
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+    color: var(--primary-text);
+    font-family: var(--secondary-font);
+}
+
+embed,
+iframe,
+img,
+object {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a,
+a:active,
+a:focus,
+a:hover,
+button {
+    text-decoration: none;
+    outline: 0;
+}
+
+li a {
+    color: var(--text-white);
+}
+
+a:hover,
+button:hover {
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+} 
+::-webkit-scrollbar-track {
+    background:var(--white); 
+} 
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-color); 
+}  
+
+.main-btn {
+    position: relative;
+    color: var(--bg-white);
+    background: linear-gradient(to right, #0f7404, #5cb917);
+    z-index: 1;
+    overflow: hidden;
+    border: 0.2rem solid var(--bg-white);
+    border-radius: 3.5rem;
+    text-transform: uppercase;
+    padding: 1rem 3.5rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.main-btn:hover {
+    background: var(--bg-white);
+    color: var(--secondary-color);
+    border: 0.2rem solid var(--secondary-color);
+}
+
+section {
+    padding: 5rem 0;
+}
+
+.section-title {
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--primary-text);
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.section-subtitle {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--primary-text);
+    font-family: var(--secondary-font);
+    max-width: 40%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+.about .banner_section,
+.product .banner_section,
+.gallery .banner_section,
+.contact .banner_section,
+.distributors .banner_section {
+    background: url('../images/banner-slide/top-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    min-height: auto;
+}
+
+.contact .contact-form,
+.distributors .contact-form {
+    background-color: var(--light-color);
+    padding: 5rem;
+    box-shadow: 0 0.2rem 1.5rem rgb(0 0 0 / 4%);
+}
+
+.contact .contact-form .form-control:focus,
+.distributors .contact-form .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.contact .contact-form .form-control::placeholder,
+.distributors .contact-form .form-control::placeholder {
+    color: var(--primary-text);
+}
+
+.contact .contact-form .form-control,
+.distributors .contact-form .form-control {
+    padding: 1rem 1.5rem;
+    border-radius: 0.rem;
+    border: 0.1rem solid var(--secondary-color);
+    color: var(--primary-text);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--secondary-font);
+}
