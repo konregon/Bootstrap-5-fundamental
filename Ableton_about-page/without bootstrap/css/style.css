@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
 }
+
 
 li{
     list-style: none;
@@ -18,22 +19,63 @@ a{
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: rgb(160, 156, 156);
 }
 
-.nav-left ul li{
-    display: inline;
+.logo{
+    font-size: 2.5rem;
+    margin: 1rem;
 }
-.nav-left ul li a{
-    font-weight: 600;
+
+.nav-left ul,
+.nav-right ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
+
+.nav-left ul li,
 .nav-right ul li{
     display: inline;
 }
+.nav-left ul li a,
 .nav-right ul li a{
-    font-weight: 600;
-    word-spacing: 0.1px;
+    font-weight: 500;
+    padding: 1rem;
+    font-size: 1.35rem;
 }
 
+
+.extra-menu{
+    /* display: flex; */
+}
+.extra-menu ul{
+    display: flex;
+}
 .extra-menu ul li{
-    display: inline;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+/* banner */
+.banner{
+    position: relative;
+}
+.banner-img{
+    padding: 0 7rem;
+}
+.text-on-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 8rem;
+    font-weight: bold;
+    color: orangered;
+    transform: translate(-50%, -50%);
+}
+
+/* first-section */
+.first-section{
+    margin: 8rem 20rem;
 }
