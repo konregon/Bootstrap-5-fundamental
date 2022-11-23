@@ -7,6 +7,10 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+}
 
 li{
     list-style: none;
@@ -83,7 +87,7 @@ a{
 h3{
     font-size: 2rem;
     font-weight: 400;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
 }
 p{
     font-size: 1.15rem;
@@ -92,22 +96,65 @@ p{
 
 /* two-img-bySide */
 .two-img-bySide{
-    margin-left: 8rem;
-    display: flex;
+    width: auto;
+    height: 100vh;
+    position: relative;
 }
-
+.bg-yellow{
+    width: 60%;
+    height: 90%;
+    background-color: #fbffa7;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .two-img-bySide-left{
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
+    z-index: 6;
+    margin-left: -50%;
 }
 
 .two-img-bySide-right{
-    width: 50%;
-    height: 50%;
+    width: 45%;
+    height: 45%;
+    z-index: 7;
+    margin-right: 20%;
 }
 
-.bg-yellow{
-    height: 20rem;
-    width: 30rem;
-    background-color: deepskyblue;
+/* vid-section */
+.vid-section{
+    display: flex;
+    justify-content: center;
+}
+
+/* three-img-section */
+.three-img-section{
+    background-color: #b6ffc0;
+    width: 60vw;
+    height: 140vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.col-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.col-2{
+    
+}
+
+.img-1,
+.img-2,
+.img-3{
+    margin: 50px;
 }
