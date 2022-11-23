@@ -77,5 +77,37 @@ a{
 
 /* first-section */
 .first-section{
-    margin: 8rem 20rem;
+    margin: 8rem 18rem;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1rem 0;
+}
+p{
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+
+/* two-img-bySide */
+.two-img-bySide{
+    margin-left: 8rem;
+    display: flex;
+}
+
+.two-img-bySide-left{
+    width: 70%;
+    height: 70%;
+}
+
+.two-img-bySide-right{
+    width: 50%;
+    height: 50%;
+}
+
+.bg-yellow{
+    height: 20rem;
+    width: 30rem;
+    background-color: deepskyblue;
 }
