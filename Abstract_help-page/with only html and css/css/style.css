@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topbar{
+    background-color: black;
+    color: #fff;
+    height: 88px;
+    top: 0;
+    width: 100%;
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+.navabar-logo{
+    display: flex;
+}
+
+.logo{
+    height: 2rem;
+}
+
+.topbar-control-container{
+    display: flex;
+}
+
+.submit-btn-top{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    border: solid 1.5px #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.sign-btn-top{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    border: solid 1.5px #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: #4C5FD5;
+}
+
+/* banner */
+.banner{
+    width: 100%;
+    background-color: #dadbf1;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .banner-inner{
+    max-width: 756px;
+} */
+
+.banner h2{
+    font-size: 70px;
+}
+
+.banner input{
+    width: 50vw;
+    height: 4rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 25px;
+    padding-left: 10px;
+}
