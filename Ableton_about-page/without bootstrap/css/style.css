@@ -249,3 +249,21 @@ p{
     /* float: left; */
     /* margin: 10%; */
 }
+
+/* footer */
+
+.footer-container{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 10%;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-title{
+    grid-column: 1/2;
+    grid-template-columns: 1/1;
+}
