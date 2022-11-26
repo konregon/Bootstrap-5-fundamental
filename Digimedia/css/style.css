@@ -223,3 +223,111 @@ body {
   background-color: #fa65b1;
   color: #fff !important;
 }
+
+
+/* 
+---------------------------------------------
+intro
+--------------------------------------------- 
+*/
+
+
+.intro-banner {
+    text-align: center;
+    padding-top: 200px;margin-bottom: 100px;
+    position: relative;
+  }
+  
+  .intro-banner:after {
+    content: '';
+    background-image: url(../images/slider-left-dec.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 262px;
+    height: 625px;
+    z-index: 1;
+  }
+  /*
+  .intro-banner:before {
+    content: '';
+    background-image: url(../images/slider-right-dec.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 1159px;
+    height: 797px;
+    z-index: 2;
+  }
+  */
+  
+  .intro-banner img {
+    max-width: 152px;
+    margin-bottom: 30px;
+  }
+  
+  .intro-banner h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative; 
+    z-index: 2;
+  }
+  
+  .intro-banner h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 20px;
+    position: relative; 
+    z-index: 2;
+  }
+  
+  .intro-banner a {
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    color: #fa65b1 !important;
+    border: 1px solid #fa65b1 !important;
+    border-radius: 23px;
+    font-weight: 500 !important;
+    letter-spacing: 0.3px !important;
+    transition: all .5s;
+    position: relative; 
+    z-index: 2;
+  }
+  
+  .intro-banner a:hover {
+    background-color: #fa65b1;
+    color: #fff !important;
+  }
+  
+  .demos {
+    padding-top: 60px;
+  }
+  
+  .demo-item {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .demos img {
+    transition: all .5s;
+    border-radius: 23px;
+  }
+  
+  .demos img:hover {
+    opacity: 1;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.25);
+  }
+  
+  .demos h4 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
