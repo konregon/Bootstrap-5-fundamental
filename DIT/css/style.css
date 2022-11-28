@@ -170,17 +170,17 @@
     padding-top: 10px;
 }
 
-.shop-button p{
+.shop-button p {
     padding-top: 10px;
     padding-left: 20px;
 }
 
-.just-after-banner-container{
+.just-after-banner-container {
     width: 100vw;
     height: 60px;
 }
 
-.just-after-banner-container ul{
+.just-after-banner-container ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
@@ -192,28 +192,52 @@
 }
 
 .just-after-banner-container li,
-.just-after-banner-container a{
+.just-after-banner-container a {
     text-decoration: none;
     font-size: 18px;
-color: #333333;
-font-weight: 300;
-font-family: "Josefin Sans";
+    color: #333333;
+    font-weight: 300;
+    font-family: "Josefin Sans";
 }
 
 
 /* BANNER-END */
 
 /* trending category */
-.hero-category{
+.hero-category {
+    width: 100%;
+    padding: 7%;
 }
 
-.row{
+.hero-category-h3{
+    font-size: 18px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #aaaaaa;
+font-weight: 300;
+font-family: "Josefin Sans";
+text-align: center;
+}
+
+.hero-category-h2{
+    font-size: 36px;
+line-height: 24px;
+text-transform: uppercase;
+color: #2e3344;
+font-weight: 600;
+font-family: "Source Serif Pro";
+text-align: center;
+margin-bottom: 20px;
+}
+
+.row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
 }
-.col{
+
+.col {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -221,26 +245,53 @@ font-family: "Josefin Sans";
     margin: 10px;
 }
 
-.trending-card-container{
+.trending-card-container {
     position: relative;
 }
 
-.card-title{
-    position: absolute;
-    bottom: 30%;
-    left: 10%;
+.trending-card-container-img-row1 {
+    height: 300px;
+    width: 400px;
 }
-.collection-button{
+
+.trending-card-container-img-row2 {
+    height: 360px;
+}
+
+.card-title {
     position: absolute;
-    bottom: 20%;
-    left: 10%;
+    bottom: 23%;
+    left: 7%;
+}
+
+.card-title h2 {
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Josefin Sans";
+}
+
+.collection-button {
+    position: absolute;
+    bottom: 7%;
+    left: 7%;
     text-transform: uppercase;
-    width: fit-content;
-    height: fit-content;
     background-color: white;
+    width: 190px;
+    height: 38px;
+    text-align: center;
 }
-.collection-button a{
+
+.collection-button p {
+    padding-top: 9px;
+}
+
+.collection-button a {
     text-decoration: none;
-    padding: 20px;
-    color: #222222;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+    padding-top: 8px;
 }
