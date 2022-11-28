@@ -295,3 +295,30 @@ margin-bottom: 20px;
     font-family: "Josefin Sans";
     padding-top: 8px;
 }
+
+/* product */
+.product-container-main{
+    width: 100%;
+    padding: 7%;
+}
+
+.main-slider-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFEFEF;
+}
+
+.card{
+    height: 600px;
+    width: 350px;
+}
+
+.card-image{
+    height: 400px;
+}
+.card-content{
+    height: 200px;
+    width: 100%;
+    background-color: #000000;
+}
