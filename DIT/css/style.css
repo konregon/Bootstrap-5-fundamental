@@ -220,3 +220,27 @@ font-family: "Josefin Sans";
     flex: 1;
     margin: 10px;
 }
+
+.trending-card-container{
+    position: relative;
+}
+
+.card-title{
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+}
+.collection-button{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    text-transform: uppercase;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+}
+.collection-button a{
+    text-decoration: none;
+    padding: 20px;
+    color: #222222;
+}
