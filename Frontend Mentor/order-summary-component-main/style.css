@@ -24,24 +24,25 @@ body{
     background: white;
     border-radius: 20px;
     overflow: hidden;
+    max-height: 95%;
 }
 
 .text-container{
-    padding: 7%;
+    padding: 9%;
     text-align: center;
 }
 
 .title{
     color: hsl(223, 47%, 23%);
     font-weight: 900;
-    font-size: 32px;
-    margin-bottom: 20px;
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
 .sub-title{
     font-size: 16px;
     color: gray;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .price-box{
@@ -49,7 +50,7 @@ body{
     border-radius: 12px;
     display: flex;
     justify-content: space-between;
-    padding: 25px;
+    padding: 20px;
     align-items: center;
 }
 
@@ -83,10 +84,10 @@ body{
     text-decoration: none;
     background-color: hsl(245, 75%, 52%);
     color: white;
-    padding: 20px 0;
+    padding: 12px 0;
     font-weight: 700;
     border-radius: 12px;
-    margin: 30px 0;
+    margin: 15px 0;
 }
 
 .cancel-order{
