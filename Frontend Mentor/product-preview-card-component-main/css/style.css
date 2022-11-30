@@ -83,3 +83,18 @@ h2,
 h3 {
   line-height: 1;
 }
+
+/* general styling */
+
+body {
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+    font-size: 0.875rem;
+    color: var(--clr-neutral-400);
+    background-color: var(--clr-secondary-200);
+  
+    /* for this project only */
+    display: grid;
+    place-content: center;
+    margin: 1rem;
+  }
