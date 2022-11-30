@@ -152,3 +152,47 @@ body {
   .button:is(:hover, :focus) {
     background-color: var(--clr-primary-500);
   }
+
+  /* product styles */
+.product {
+    --content-padding: 1.5rem;
+    --content-spacing: 1rem;
+  
+    display: grid;
+    background-color: var(--clr-neutral-100);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    max-width: 600px;
+  }
+  
+  @media (min-width: 600px) {
+    .product {
+      --content-padding: 2rem;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .product__content {
+    display: grid;
+    gap: var(--content-spacing);
+    padding: var(--content-padding);
+  }
+  
+  .product__category {
+    font-size: 0.8125rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+  
+  .product__title {
+    font-size: 2rem;
+    font-family: var(--ff-accent);
+    color: var(--clr-neutral-900);
+  }
+  
+  .product__price {
+    font-size: 2rem;
+    font-family: var(--ff-accent);
+    color: var(--clr-primary-400);
+  }
+  
