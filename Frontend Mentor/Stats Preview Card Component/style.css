@@ -75,3 +75,36 @@ body {
     text-transform: uppercase;
     padding-top: 60px;
 }
+
+.stat-box p.num {
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.stat-box p {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    body {
+        font-size: 12px;
+    }
+
+    .text-component {
+        padding: 12%;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .stat-box {
+        padding-top: 30px;
+    }
+
+    .stat-box p.num {
+        font-size: 17px;
+    }
+}
