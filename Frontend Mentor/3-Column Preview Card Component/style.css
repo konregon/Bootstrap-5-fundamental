@@ -48,3 +48,49 @@ body {
     color: hsl(0, 0%, 95%);
     font-size: 30px;
 }
+
+
+.box p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+}
+
+.box a {
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 13px 27px;
+    border-radius: 26px;
+    margin-top: 60px;
+    display: inline-block;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: all .4s ease-in-out;
+}
+
+.box1 a {
+    color: hsl(31, 77%, 52%);
+}
+
+.box2 a {
+    color: hsl(184, 100%, 22%);
+}
+
+.box3 a {
+    color: hsl(179, 100%, 13%);
+}
+
+.box a:hover {
+    color: hsl(0, 0%, 95%);
+    background: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .wrapper {
+        margin: 2rem .5rem;
+    }
+}
