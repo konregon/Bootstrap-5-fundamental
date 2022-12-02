@@ -164,4 +164,47 @@ input#price-slider::-webkit-slider-thumb {
   .switch input:checked + .toggle-slider:before {
     transform: translateX(25px);
   }
+
+  
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer a {
+    color: hsl(226, 100%, 87%);
+    background-color: hsl(227, 35%, 25%);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+  }
+  
+  .footer a:hover {
+    color: #fff;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+  }
+  
+  .footer li {
+    margin-bottom: 7px;
+  }
+  
+  .footer li img {
+    padding-right: 10px;
+  }
+  
+  hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .cst2 {
+    display: none;
+  }
+  
+  p.discount2 {
+    display: none;
+  }
   
