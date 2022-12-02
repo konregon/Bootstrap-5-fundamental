@@ -23,3 +23,69 @@ body {
   border-radius: 15px;
   margin-top: -200px;
 }
+
+
+.title {
+    text-align: center;
+    padding: 70px 30px 300px;
+    background-color: hsl(224, 65%, 95%);
+    border-bottom-left-radius: 200px;
+    background-image: url(https://digitshack.com/codepen/mentor5/pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-position: center 40px;
+  }
+  
+  .title h1 {
+    color: hsl(227, 35%, 25%);
+    margin-bottom: 10px;
+  }
+  
+  .top-content,
+  .footer {
+    padding: 50px;
+  }
+  
+  .packages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .packages .pv p {
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+  }
+  
+  .cst {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cst p {
+    color: hsl(227, 35%, 25%);
+    font-size: 34px;
+    font-weight: 800;
+  }
+  
+  .cst p.time {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 5px;
+    color: hsl(225, 20%, 60%);
+  }
+  
+  input#price-slider {
+    width: 100%;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    height: 10px;
+    background: linear-gradient(
+      to right,
+      hsl(174, 77%, 80%) 0%,
+      hsl(174, 77%, 80%) 50%,
+      hsl(224, 65%, 95%) 0%,
+      hsl(224, 65%, 95%) 100%
+    );
+  }
+  
