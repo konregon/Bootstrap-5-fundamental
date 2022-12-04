@@ -79,4 +79,94 @@ body {
   .social {
     text-align: right;
   }
+
+  
+.social a i {
+    color: #fff;
+    position: relative;
+    font-size: 18px;
+  
+    transition: all 0.3s ease;
+  }
+  
+  .social a:not(:first-child) {
+    margin-left: 2rem;
+  }
+  
+  .social a:nth-child(2) {
+    margin-left: 2.4rem;
+  }
+  
+  .social a i::after {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    left: -14px;
+    bottom: -13px;
+    transition: all 0.3s ease;
+  }
+  
+  .social a:hover i {
+    color: hsl(300, 69%, 71%);
+  }
+  
+  .social a i:hover::after {
+    border-color: hsl(300, 69%, 71%);
+  }
+  
+  @media only screen and (max-width: 1440px) {
+    .hero-img img {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .main {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .social {
+      text-align: center;
+      margin-top: 50px;
+    }
+  
+    .hero-text h1 {
+      line-height: 1.5;
+      font-size: 26px;
+    }
+  
+    .hero-text a {
+      padding: 10px 70px;
+    }
+  }
+  /* Youtube link */
+  .link {
+    position: fixed;
+    background-color: #d12322;
+    padding: 23px 40px;
+    right: -100px;
+    border-radius: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: rotate(-90deg);
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .link i {
+    padding-left: 7px;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+    background-color: black;
+  }
   
