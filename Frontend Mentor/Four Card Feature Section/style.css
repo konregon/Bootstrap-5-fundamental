@@ -17,3 +17,79 @@ body {
   margin: 0 auto;
   padding: 50px 30px;
 }
+
+
+header {
+    text-align: center;
+  }
+  
+  header h2 {
+    font-size: 34px;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+  }
+  
+  header h3 {
+    font-size: 34px;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+  }
+  
+  header p {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin-top: 60px;
+  }
+  
+  .box {
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 30px;
+    text-align: right;
+  }
+  
+  .box-text {
+    text-align: left;
+    padding-bottom: 50px;
+  }
+  
+  .box1 {
+    border-top: 4px solid hsl(180, 62%, 55%);
+  }
+  
+  .box2 {
+    border-top: 4px solid hsl(0, 78%, 62%);
+  }
+  
+  .box3 {
+    border-top: 4px solid hsl(34, 97%, 64%);
+  }
+  
+  .box4 {
+    border-top: 4px solid hsl(212, 86%, 64%);
+  }
+  
+  .box-text h5 {
+    font-size: 20px;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 10px;
+  }
+  
+  .box-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .box1,
+  .box4 {
+    align-self: center;
+  }
+  
