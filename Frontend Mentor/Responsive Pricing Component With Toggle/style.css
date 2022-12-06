@@ -121,3 +121,78 @@ input:checked+.slider::before {
     color: hsl(232, 13%, 33%);
     /* dark grayish blue */
 }
+
+.price-monthly {
+    display: none;
+}
+
+.price {
+    font-size: 65px;
+    padding-left: 7px;
+}
+
+ul {
+    list-style: none;
+    padding: 35px 0px;
+}
+
+ul li {
+    color: hsl(233, 13%, 49%);
+    /* grayish blue */
+    border-bottom: 1px solid hsl(234, 14%, 74%);
+    padding: 18px 0;
+}
+
+ul li:first-child {
+    border-top: 1px solid hsl(234, 14%, 74%);
+}
+
+a {
+    border: none;
+    background: linear-gradient(180deg,
+            hsl(236, 72%, 79%),
+            hsl(237, 63%, 64%));
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+a:hover {
+    color: hsl(237, 63%, 64%);
+    background: transparent;
+    border-color: hsl(237, 63%, 64%);
+}
+
+.pricing-box.featured {
+    background: linear-gradient(180deg,
+            hsl(236, 72%, 79%),
+            hsl(237, 63%, 64%));
+    transform: scaleX(1.05);
+    padding: 80px 40px;
+}
+
+.pricing-box.featured p {
+    color: #FFF;
+}
+
+.pricing-box.featured ul li {
+    color: #FFF;
+    /* border-color: ; */
+}
+
+.pricing-box.featured a {
+    background: #FFF;
+    color: hsl(237, 63%, 64%);
+}
+
+.pricing-box.featured a:hover {
+    color: #FFF;
+    border-color: #FFF;
+    background: transparent;
+}
