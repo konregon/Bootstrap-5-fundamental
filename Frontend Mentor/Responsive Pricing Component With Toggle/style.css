@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+    background-color: hsl(240, 78%, 98%);
+    /* Bery light grayish blue */
+    background-image: url(https://digitshack.com/codepen/mentor9/bg-top.svg),
+        url(https://digitshack.com/codepen/mentor9/bg-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right top,
+        left bottom;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.title {
+    font-size: 32px;
+    color: hsl(233, 13%, 49%);
+    /* grayish blue */
+}
