@@ -196,3 +196,42 @@ a:hover {
     border-color: #FFF;
     background: transparent;
 }
+
+
+@media only screen and (max-width: 1024px) {
+    body {
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 50px;
+    }
+
+    .pricing-box {
+        padding: 40px 30px;
+    }
+
+    .pricing-box.feautred {
+        padding: 70px 30px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .pricing-main {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+
+    .price {
+        font-size: 50px;
+    }
+
+    .pricing-box {
+        padding: 50px 50px;
+    }
+
+    .pricing-box.featured {
+        transform: scaleX(1);
+        padding: 50px 50px;
+    }
+}
