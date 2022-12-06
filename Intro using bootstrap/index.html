@@ -29,43 +29,73 @@
     <!-- custom js -->
     <script src="JS/main.js"></script>
 
+
+
 </head>
 
 <body>
 
     <!-- navbar-start -->
-    <div class="header-wrapper">
+    <!-- Navbar section -->
+    <header class="header_wrapper">
         <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/ME8 (1).png" class="img-fluid" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <!-- <span class="navbar-toggler-icon"></span> -->
-                    <i class="fa-solid fa-bars-staggered"></i>
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-    </div>
+    </header>
     <!-- navbar-end -->
 
+     <!-- Banner section -->
+     <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 order-lg-1 order-2 banner-content">
+                    <h2 class="text-uppercase position-relative">Hell0</h2>
+                    <h1 class="text-uppercase">I am John Smith</h1>
+                    <h5 class="text-uppercase">senior Frontend Designer</h5>
+                    <div class="mt-5">
+                        <a class="main-btn primary-btn" href="#">Hire Me</a>
+                        <a class="main-btn secondary-btn ms-4" href="#">Get CV</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-lg-2 order-1">
+                    <div class="top-right-img">
+                        <img src="images/home-right.webp" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner section exit -->
 
 </body>
 
