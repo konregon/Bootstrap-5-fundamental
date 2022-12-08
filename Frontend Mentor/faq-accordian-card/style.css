@@ -58,3 +58,93 @@ FAQs SECTION OF CARD
     float: right;
     height: 100%;
 }
+
+/*
+IMAGE SECTION OF CARD
+*/
+.image {
+    width: 50%;
+    position: relative;
+    height: inherit;
+    float: left;
+    background: url('images/illustration-woman-online-desktop.svg') bottom 68px left -74px no-repeat,
+    url('images/bg-pattern-desktop.svg') bottom -159px left -570px no-repeat;
+}
+
+.image::before {
+    content: "";
+    position: absolute;
+    bottom: 134px;
+    left: -90px;
+    background: url('images/illustration-box-desktop.svg') no-repeat;
+    width: 191px;
+    height: 156px;
+}
+
+button {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: all 0.3s ease-in-out;
+    color: hsl(14, 88%, 65%);
+}
+
+.answer {
+    padding-top: 1rem;
+    color: hsl(240, 6%, 50%);
+    font-size: 12px;
+    display: none;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.arrow {
+    transition: transform 0.3s ease-in-out;
+    align-self: center;
+    object-fit: contain;
+    width: 0.75rem;
+    margin-left: 0.75rem;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+.faqs h1 {
+    margin-bottom: 1rem;
+}
+
+.faq-item {
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.faq-item.active .answer {
+    display: block !important;
+    opacity: 1 !important;
+}
+
+.faq-item.active .question {
+    color: black;
+}
+
+.faq-item.active .arrow {
+    transform: rotate(180deg);
+}
+
+.faq-item button {
+    outline: none;
+}
+
+.question {
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--Dark-grayish-blue);
+}
+
