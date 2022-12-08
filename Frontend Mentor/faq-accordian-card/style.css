@@ -148,3 +148,16 @@ button:hover {
     color: var(--Dark-grayish-blue);
 }
 
+/*
+MEDIA QUERY
+MOBILE VIEW STYLES
+*/
+@media (max-width: 50rem) {
+    .image {
+        display: none;
+    }
+
+    .faqs {
+        width: 100%;
+    }
+}
