@@ -1,0 +1,49 @@
+.navbar-header {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-left: 3%;
+    padding-right: 0;
+    position: relative;
+    top: -500px;
+  }
+  .navbar-brand {
+    align-self: flex-start;
+    margin-top: 3%;
+  }
+  .navbar {
+    padding-right: 0;
+  }
+  
+  .navbar-nav {
+    padding-top: 5%;
+  
+  }
+  .menu {
+    width: 55%;
+    height: 500px;
+    margin-left:auto;
+    margin-right:0;
+    background-color: #ecfcff;
+    border-bottom-left-radius: 8em 8em;
+  
+  }
+  .nav-item {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .card {
+    font-family: 'Barlow', sans-serif;
+    border: none;
+  }
+  .body-container {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "a b";
+    position: relative;
+    top: -400px;
+  }
