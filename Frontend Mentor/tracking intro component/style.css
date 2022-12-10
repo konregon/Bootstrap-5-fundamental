@@ -47,3 +47,65 @@
     position: relative;
     top: -400px;
   }
+
+  
+.rightside {
+    grid-area: b;
+  
+  }
+  .rightside-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  .row {
+    grid-area: a;
+    justify-content: flex-end;
+    align-self:center;
+  }
+  .tag {
+    background-color: #000;
+    border-color: #000;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  .tag2 {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: gray;
+    padding-left: 3%;
+    letter-spacing: 2px;
+  }
+  .card-title {
+    font-family: 'Barlow', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .card-text {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: gray;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .demo {
+    background-color: hsl(0, 100%, 68%);
+    border-color: hsl(0, 100%, 68%);
+    border-radius: 5px 5px 5px 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 45%;
+    height: 40px;
+    display: inline-block;
+  }
+  .bottom-text {
+    font-size: 1rem;
+    font-weight: 200;
+    color: gray;
+    display: inline-block;
+  }
