@@ -8,92 +8,105 @@
     padding-right: 0;
     position: relative;
     top: -500px;
-  }
-  .navbar-brand {
+}
+
+.navbar-brand {
     align-self: flex-start;
     margin-top: 3%;
-  }
-  .navbar {
+}
+
+.navbar {
     padding-right: 0;
-  }
-  
-  .navbar-nav {
+}
+
+.navbar-nav {
     padding-top: 5%;
-  
-  }
-  .menu {
+
+}
+
+.menu {
     width: 55%;
     height: 500px;
-    margin-left:auto;
-    margin-right:0;
+    margin-left: auto;
+    margin-right: 0;
     background-color: #ecfcff;
     border-bottom-left-radius: 8em 8em;
-  
-  }
-  .nav-item {
+
+}
+
+.nav-item {
     margin-left: 2em;
     margin-right: 2em;
-  }
-  .card {
+}
+
+.card {
     font-family: 'Barlow', sans-serif;
     border: none;
-  }
-  .body-container {
+}
+
+.body-container {
     display: grid;
     grid-template-columns: 45% 55%;
     grid-template-rows: auto;
     grid-template-areas:
-      "a b";
+        "a b";
     position: relative;
     top: -400px;
-  }
+}
 
-  
+
 .rightside {
     grid-area: b;
-  
-  }
-  .rightside-img {
+
+}
+
+.rightside-img {
     width: 100%;
     height: 100%;
     display: block;
     object-fit: cover;
-  }
-  .row {
+}
+
+.row {
     grid-area: a;
     justify-content: flex-end;
-    align-self:center;
-  }
-  .tag {
+    align-self: center;
+}
+
+.tag {
     background-color: #000;
     border-color: #000;
     border-radius: 20px 20px 20px 20px;
     font-size: 0.8rem;
     font-weight: bold;
-  }
-  .tag2 {
+}
+
+.tag2 {
     font-size: 0.8rem;
     font-weight: bold;
     color: gray;
     padding-left: 3%;
     letter-spacing: 2px;
-  }
-  .card-title {
+}
+
+.card-title {
     font-family: 'Barlow', sans-serif;
     font-size: 2.5rem;
     font-weight: 900;
     padding-top: 5%;
     padding-bottom: 5%;
-  }
-  .card-text {
+}
+
+.card-text {
     font-family: 'Barlow', sans-serif;
     font-size: 1rem;
     font-weight: 600;
     color: gray;
     padding-top: 5%;
     padding-bottom: 5%;
-  }
-  .demo {
+}
+
+.demo {
     background-color: hsl(0, 100%, 68%);
     border-color: hsl(0, 100%, 68%);
     border-radius: 5px 5px 5px 5px;
@@ -102,10 +115,38 @@
     width: 45%;
     height: 40px;
     display: inline-block;
-  }
-  .bottom-text {
+}
+
+.bottom-text {
     font-size: 1rem;
     font-weight: 200;
     color: gray;
     display: inline-block;
-  }
+}
+
+
+/* Footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 576px) {
+    .body-container {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+            "b"
+            "a";
+        top: -500px;
+    }
+
+    .navbar-collapse {
+        background-color: blue;
+    }
+
+}
