@@ -291,3 +291,93 @@ span {
     width: 75%;
     background-color: #616161;
 }
+
+
+/* Mobile friendly */
+@media(max-width:960px) {
+    .fullscreen-video-wrap video {
+        min-width: 116%;
+        min-height: 100%;
+        margin-bottom: -500px;
+        margin-left: -520px;
+    }
+}
+
+@media (max-width:720px) {
+    .fullscreen-video-wrap video {
+        min-width: 116%;
+        min-height: 100%;
+        margin-bottom: -500px;
+        margin-left: -640px;
+    }
+}
+
+@media(max-width:568px) {
+
+    .fullscreen-video-wrap video {
+        margin-left: -800px;
+    }
+
+    .parallax-img1,
+    .parallax-img2,
+    .parallax-img3 {
+        background-attachment: scroll;
+    }
+
+    .header-content {
+        max-width: 400px
+    }
+
+    .logo {
+        max-width: 367px;
+    }
+
+    .logo-name img {
+        /* background-color: red; */
+        position: relative;
+        left: -110px;
+        bottom: 200px;
+        max-width: 600px;
+    }
+
+    .logo img {
+        position: relative;
+        top: 80px;
+        max-width: 390px;
+    }
+
+    .btn {
+        bottom: 210px;
+        left: -8px;
+    }
+
+    .container {
+        max-width: 568px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: auto;
+    }
+
+    .ptext .border img {
+        position: relative;
+        top: -180px;
+        left: 20px;
+        max-width: 500px;
+    }
+
+    .rating {
+        display: block;
+    }
+
+    .rating .skill {
+        display: block;
+    }
+
+    .parallax-img2 .ptext .border img {
+        max-width: 370px;
+    }
+
+    .parallax-img3 .ptext .border img {
+        max-width: 370px;
+    }
+}
