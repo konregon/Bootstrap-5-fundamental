@@ -868,3 +868,297 @@
 .bg-white {
   background-color: #fff;
 }
+
+
+.bg-transparent,
+.btn-transparent {
+  background-color: transparent;
+}
+
+.btn-red,
+.btn-dark {
+  border: none;
+  border-radius: 0.2em;
+  font-size: 1em;
+}
+
+.btn-transparent {
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  border-radius: 0.2em;
+  border: 0.1em solid #dbdbdb;
+  font-size: 0.8em;
+  color: #474747;
+  font-family: "Helvetica Neue 65 Medium", sans-serif;
+}
+
+.bg-dark,
+.btn-dark,
+.btn-transparent:hover {
+  background-color: #383838;
+}
+
+.btn-red {
+  color: #fff;
+  box-shadow: inset 0 72px 14px -76px rgba(255, 255, 255, 0.65);
+}
+
+.btn-red:hover {
+  background-color: #f01838;
+}
+
+.btn-dark {
+  color: #888;
+  height: 3em;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.bord-r-red {
+  border-right: 0.1em solid #d35266;
+}
+
+.bord {
+  border: 0.1em solid #dbdbdb;
+}
+
+.bord-x {
+  border-right: 0.1em solid #dbdbdb;
+  border-left: 0.1em solid #dbdbdb;
+}
+
+.bord-y {
+  border-top: 0.1em solid #dbdbdb;
+  border-bottom: 0.1em solid #dbdbdb;
+}
+
+.bord-t {
+  border-top: 0.1em solid #dbdbdb;
+}
+
+.bord-b {
+  border-bottom: 0.1em solid #dbdbdb;
+}
+
+.bord-r {
+  border-right: 0.1em solid #dbdbdb;
+}
+
+.bord-l {
+  border-left: 0.1em solid #dbdbdb;
+}
+
+@font-face {
+  font-family: "Helvetica Neue Light";
+  src: url("fonts/hnlight/0e6de1ec911a2e267ff136bbdd384a44.eot");
+
+  /* IE9 */
+  src: url("fonts/hnlight/0e6de1ec911a2e267ff136bbdd384a44.eot?#iefix") format("embedded-opentype"), url("fonts/hnlight/0e6de1ec911a2e267ff136bbdd384a44.woff2") format("woff2"), url("fonts/hnlight/0e6de1ec911a2e267ff136bbdd384a44.woff") format("woff"), url("fonts/hnlight/0e6de1ec911a2e267ff136bbdd384a44.ttf") format("truetype"), url("fonts/hnlight/0e6de1ec911a2e267ff136bbdd384a44.svg#Helvetica Neue Light") format("svg");
+
+  /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Helvetica Neue 65 Medium";
+  src: url("fonts/hnmedium/6c6db39a56fe8e8f19ba47c6a0770a18.eot");
+
+  /* IE9 */
+  src: url("fonts/hnmedium/6c6db39a56fe8e8f19ba47c6a0770a18.eot?#iefix") format("embedded-opentype"), url("fonts/hnmedium/6c6db39a56fe8e8f19ba47c6a0770a18.woff2") format("woff2"), url("fonts/hnmedium/6c6db39a56fe8e8f19ba47c6a0770a18.woff") format("woff"), url("fonts/hnmedium/6c6db39a56fe8e8f19ba47c6a0770a18.ttf") format("truetype"), url("fonts/hnmedium/6c6db39a56fe8e8f19ba47c6a0770a18.svg#Helvetica Neue 65 Medium") format("svg");
+
+  /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Helvetica Neue 77 Bold Condensed";
+  src: url("fonts/hnbold/d72e521f27450184733d89aa499e531c.eot");
+
+  /* IE9 */
+  src: url("fonts/hnbold/d72e521f27450184733d89aa499e531c.eot?#iefix") format("embedded-opentype"), url("fonts/hnbold/d72e521f27450184733d89aa499e531c.woff2") format("woff2"), url("fonts/hnbold/d72e521f27450184733d89aa499e531c.woff") format("woff"), url("fonts/hnbold/d72e521f27450184733d89aa499e531c.ttf") format("truetype"), url("fonts/hnbold/d72e521f27450184733d89aa499e531c.svg#Helvetica Neue 77 Bold Condensed") format("svg");
+
+  /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("fonts/gbold/5d6f50ed2dde0e4ad455448f896c09f0.eot");
+
+  /* IE9 */
+  src: url("fonts/gbold/5d6f50ed2dde0e4ad455448f896c09f0.eot?#iefix") format("embedded-opentype"), url("fonts/gbold/5d6f50ed2dde0e4ad455448f896c09f0.woff2") format("woff2"), url("fonts/gbold/5d6f50ed2dde0e4ad455448f896c09f0.woff") format("woff"), url("fonts/gbold/5d6f50ed2dde0e4ad455448f896c09f0.ttf") format("truetype"), url("fonts/gbold/5d6f50ed2dde0e4ad455448f896c09f0.svg#Gotham Bold") format("svg");
+
+  /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Gotham Rounded Light";
+  src: url("fonts/grlight/1549fe8fd297f1e6501a3d6ad7f77394.eot");
+
+  /* IE9 */
+  src: url("fonts/grlight/1549fe8fd297f1e6501a3d6ad7f77394.eot?#iefix") format("embedded-opentype"), url("fonts/grlight/1549fe8fd297f1e6501a3d6ad7f77394.woff2") format("woff2"), url("fonts/grlight/1549fe8fd297f1e6501a3d6ad7f77394.woff") format("woff"), url("fonts/grlight/1549fe8fd297f1e6501a3d6ad7f77394.ttf") format("truetype"), url("fonts/grlight/1549fe8fd297f1e6501a3d6ad7f77394.svg#Gotham Rounded Light") format("svg");
+
+  /* iOS 4.1- */
+}
+
+.brand-name--sm-w {
+  color: white;
+  font-size: 1em;
+}
+
+.brand-name,
+.brand-name--sm-w,
+.brand-name--sm-w:hover,
+.brand-name--sm-l,
+.brand-name--lg-w,
+.brand-name--lg-w-page {
+  font-family: 'Fascinate', cursive;
+}
+
+.brand-name--sm-w:hover {
+  color: white;
+  font-size: 1em;
+}
+
+.brand-name--sm-l {
+  color: #888;
+  font-size: 1.5em;
+}
+
+.brand-name--lg-w {
+  color: white;
+  font-size: 5em;
+  line-height: 1em;
+  text-shadow: -2px -1px 1px #747474;
+}
+
+.brand-name--lg-w-page {
+  color: white;
+  font-size: 3em;
+  line-height: 1em;
+  text-shadow: -2px -1px 1px #747474;
+}
+
+.brand-name:hover,
+.brand-name--sm-w:hover,
+.brand-name--sm-l:hover,
+.brand-name--lg-w:hover,
+.brand-name--lg-w-page:hover {
+  cursor: pointer;
+}
+
+.tupper {
+  text-transform: uppercase;
+}
+
+.co-w,
+.btn-transparent:hover {
+  color: #fff;
+}
+
+.co-d {
+  color: #383838;
+}
+
+.co-dt {
+  color: #474747;
+}
+
+.co-r {
+  color: #d35266;
+}
+
+.co-l {
+  color: #888;
+}
+
+.f-hl {
+  font-family: "Helvetica Neue Light", sans-serif;
+}
+
+.f-hm {
+  font-family: "Helvetica Neue 65 Medium", sans-serif;
+}
+
+.f-hb {
+  font-family: "Helvetica Neue 77 Bold Condensed", sans-serif;
+}
+
+.f-gb {
+  font-family: "Gotham Bold", sans-serif;
+}
+
+.f-gl {
+  font-family: "Gotham Rounded Light", sans-serif;
+}
+
+.nav--left {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav__brand {
+  display: flex;
+  margin-right: 2em;
+}
+
+.nav__menu--short {
+  font-size: 1.5em;
+  color: #888;
+  border: 0.02em solid #888;
+  border-radius: 5%;
+}
+
+.nav__menu--short:hover {
+  background-color: #d35266;
+  border-color: #d35266;
+  color: #f3f3f3;
+  cursor: pointer;
+}
+
+.nav__menu--short a:hover {
+  color: #f3f3f3;
+}
+
+.nav__menu {
+  margin-right: 2em;
+  display: none;
+}
+
+::placeholder {
+  color: #383838;
+}
+
+.nav__button {
+  margin-left: 10%;
+}
+
+.nav__menu__item {
+  font-size: 1.1em;
+  margin-right: 1em;
+}
+
+.nav__menu__item:hover {
+  color: #f01838;
+}
+
+.nav__brand__name {
+  margin: auto 0;
+}
+
+.watermark,
+.watermark-2 {
+  position: absolute;
+  top: -5em;
+  z-index: 1;
+  height: 35em;
+  opacity: 25%;
+}
+
+.watermark-2 {
+  height: 35em;
+}
+
+.z-2 {
+  z-index: 2;
+  position: relative;
+}
