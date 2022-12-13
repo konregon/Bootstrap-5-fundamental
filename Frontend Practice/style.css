@@ -24,7 +24,7 @@ body{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    /* background-color: aqua; */
+    background-color: aqua;
     align-items: center;
 }
 
