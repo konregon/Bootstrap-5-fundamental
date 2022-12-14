@@ -24,3 +24,57 @@ body{
     background-position: 0% 100%, 100% 0%;
     background-size: 18rem, 15rem;
 }
+
+h1{
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 1.5em;
+    color: rgba(121,122,148,255);
+}
+
+h2{
+    font-size: 1em;
+}
+
+h3{
+    font-size: 4em;
+    padding: 1rem 3rem;
+}
+
+h4{
+    font-size: 4em;
+    padding: 1rem 3rem;
+    display: none;
+}
+
+p{
+    font-size: 1em;
+}
+
+.selector{
+    display: flex;
+    color: rgba(185,184,197,255);
+    justify-content: center;
+    align-items: center;
+}
+
+.selector-bar{
+    margin: 0 1.5rem;
+    padding: 0.1rem;
+    background-color: rgba(142,144,235,255);
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.selector-ball{
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: white;
+    border-radius: 50%;
+    transition-duration: 5000;
+}
