@@ -112,3 +112,55 @@ ul li ul li a {
     border-radius: 10px;
     color: #fff;
 }
+
+/* Price section */
+.price-wrapper{
+  width: 90%;
+  background-color: dodgerblue;
+  margin: auto;
+}
+
+.price-main-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-wrapper{
+  width: 100%;
+  background-color: yellowgreen;
+  display: flex;
+}
+
+.card-left, .card-center, .card-right{
+  background-color: orange;
+  padding: 5rem 3rem;
+  margin: 10px;
+}
+
+.card-title{
+  font-size: 2em;
+}
+
+.card-title-info{
+  font-size: 0.9em;
+  padding-bottom: 1rem;
+}
+
+.peice{
+  font-size: 3em;
+}
+
+.card-line{
+  color: #00b289;
+  margin-bottom: 1rem;
+}
+
+.card-right-sign{
+  padding-right: .5rem;
+  color: #00b289;
+}
+
+.card-offers{
+  padding-bottom: 0.5rem;
+}
