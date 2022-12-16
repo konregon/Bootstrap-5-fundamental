@@ -130,3 +130,19 @@ button:hover {
 footer p {
     color: hsl(0, 0%, 59%);
 }
+
+@media screen and (max-width: 650px) {
+    form {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .form-left {
+        width: 100%;
+    }
+
+    button {
+        margin-left: 0;
+        width: 100%;
+    }
+}
