@@ -41,3 +41,52 @@ form {
 .form-left {
     flex: 0.7;
 }
+
+input {
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 50px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    padding: 20px 25px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+input::placeholder {
+    color: hsl(223, 100%, 88%);
+}
+
+input.error {
+    border-color: hsl(354, 100%, 66%);
+}
+
+input.error::placeholder {
+    color: hsl(354, 100%, 66%);
+}
+
+form small {
+    color: hsl(354, 100%, 66%);
+    display: none;
+    font-style: italic;
+    z-index: 100;
+    margin: 0 20px 40px;
+}
+
+button {
+    background-color: hsl(223, 87%, 63%);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 5px 5px hsl(223, 100%, 88%);
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 0;
+    margin-left: 20px;
+    flex: 0.3;
+}
+
+button:hover {
+    opacity: 0.8;
+}
