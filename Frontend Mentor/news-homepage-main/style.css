@@ -89,3 +89,65 @@ body {
     border: none;
     cursor: pointer;
 }
+
+.showcase {
+    padding: 1.25rem;
+    padding-top: 0;
+}
+
+.showcase h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: hsl(240, 100%, 5%);
+    margin: 1rem 0;
+}
+
+.showcase div:first-child article p {
+    margin-bottom: 1rem;
+}
+
+.showcase div:first-child article button {
+    background-color: hsl(5, 85%, 63%);
+    color: #fff;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.showcase div:first-child article button:hover {
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+
+.showcase>div:last-child {
+    background-color: hsl(240, 100%, 5%);
+    margin-top: 2rem;
+    padding: 1.25rem 1.25rem 0;
+}
+
+.showcase>div:last-child h2 {
+    color: hsl(35, 77%, 62%);
+}
+
+.showcase>div:last-child article {
+    padding: 1.25rem 0;
+}
+
+.showcase>div:last-child article:not(:last-child) {
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+
+.showcase>div:last-child h3 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.showcase>div:last-child h3:hover {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
