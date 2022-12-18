@@ -30,3 +30,62 @@ body {
     margin: auto;
     padding-bottom: 4rem;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem;
+}
+
+.header nav #menu-close {
+    background: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 1.25rem;
+    top: 1.25rem;
+    z-index: 99999;
+    cursor: pointer;
+}
+
+.header nav {
+    opacity: 0;
+    z-index: -999;
+    transition: all 0.3s ease-in-out;
+}
+
+.header nav.open {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 75vw;
+    background-color: white;
+    padding: 1.25rem;
+    opacity: 1;
+    z-index: 99999999999;
+}
+
+.header nav ul {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header nav ul li {
+    margin: 1.5rem 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header nav ul li:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.header .menu-button button {
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
